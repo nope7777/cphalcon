@@ -15652,7 +15652,7 @@ static PHP_METHOD(Phalcon_Tag, renderAttributes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&order), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -15692,7 +15692,7 @@ static PHP_METHOD(Phalcon_Tag, renderAttributes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&attributes), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&key, _7);
 			} else {
 				ZVAL_LONG(&key, _6);
@@ -15735,7 +15735,7 @@ static PHP_METHOD(Phalcon_Tag, renderAttributes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&attrs), _11, _12, _9)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_12 != NULL) { 
+			if (_12 != NULL) {
 				ZVAL_STR_COPY(&key, _12);
 			} else {
 				ZVAL_LONG(&key, _11);
@@ -17258,11 +17258,11 @@ zend_object *zephir_init_properties_Phalcon_Logger_AbstractLogger(zend_class_ent
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -17556,11 +17556,11 @@ zend_object *zephir_init_properties_Phalcon_Logger_Item(zend_class_entry *class_
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -18000,7 +18000,7 @@ static PHP_METHOD(Phalcon_Logger_LoggerFactory, load)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&adapters), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&adapterName);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&adapterName, _7);
 			} else {
 				ZVAL_LONG(&adapterName, _6);
@@ -18825,11 +18825,11 @@ zend_object *zephir_init_properties_Phalcon_Logger_Adapter_AbstractAdapter(zend_
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -19857,7 +19857,7 @@ static PHP_METHOD(Phalcon_Di_Di, loadFromConfig)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&services), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&name, _3);
 			} else {
 				ZVAL_LONG(&name, _2);
@@ -20305,11 +20305,11 @@ zend_object *zephir_init_properties_Phalcon_Di_Di(zend_class_entry *class_type)
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -21468,7 +21468,7 @@ static PHP_METHOD(Phalcon_Di_Service_Builder, build)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paramCalls), _3$$10, _4$$10, _1$$10)
 			{
 				ZEPHIR_INIT_NVAR(&methodPosition);
-				if (_4$$10 != NULL) { 
+				if (_4$$10 != NULL) {
 					ZVAL_STR_COPY(&methodPosition, _4$$10);
 				} else {
 					ZVAL_LONG(&methodPosition, _3$$10);
@@ -21618,7 +21618,7 @@ static PHP_METHOD(Phalcon_Di_Service_Builder, build)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paramCalls), _29$$25, _30$$25, _27$$25)
 			{
 				ZEPHIR_INIT_NVAR(&propertyPosition);
-				if (_30$$25 != NULL) { 
+				if (_30$$25 != NULL) {
 					ZVAL_STR_COPY(&propertyPosition, _30$$25);
 				} else {
 					ZVAL_LONG(&propertyPosition, _29$$25);
@@ -21889,7 +21889,7 @@ static PHP_METHOD(Phalcon_Di_Service_Builder, buildParameters)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&arguments), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&position);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&position, _3);
 			} else {
 				ZVAL_LONG(&position, _2);
@@ -22301,11 +22301,11 @@ zend_object *zephir_init_properties_Phalcon_Annotations_Annotation(zend_class_en
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -24670,7 +24670,7 @@ static PHP_METHOD(Phalcon_Annotations_Reflection, getConstantsAnnotations)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&reflectionConstants), _4$$4, _5$$4, _2$$4)
 				{
 					ZEPHIR_INIT_NVAR(&constant);
-					if (_5$$4 != NULL) { 
+					if (_5$$4 != NULL) {
 						ZVAL_STR_COPY(&constant, _5$$4);
 					} else {
 						ZVAL_LONG(&constant, _4$$4);
@@ -24746,7 +24746,7 @@ static PHP_METHOD(Phalcon_Annotations_Reflection, getPropertiesAnnotations)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&reflectionProperties), _4$$4, _5$$4, _2$$4)
 				{
 					ZEPHIR_INIT_NVAR(&property);
-					if (_5$$4 != NULL) { 
+					if (_5$$4 != NULL) {
 						ZVAL_STR_COPY(&property, _5$$4);
 					} else {
 						ZVAL_LONG(&property, _4$$4);
@@ -24822,7 +24822,7 @@ static PHP_METHOD(Phalcon_Annotations_Reflection, getMethodsAnnotations)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&reflectionMethods), _4$$4, _5$$4, _2$$4)
 				{
 					ZEPHIR_INIT_NVAR(&methodName);
-					if (_5$$4 != NULL) { 
+					if (_5$$4 != NULL) {
 						ZVAL_STR_COPY(&methodName, _5$$4);
 					} else {
 						ZVAL_LONG(&methodName, _4$$4);
@@ -24882,11 +24882,11 @@ zend_object *zephir_init_properties_Phalcon_Annotations_Reflection(zend_class_en
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -24966,7 +24966,7 @@ static int phannot_get_token(phannot_scanner_state *s, phannot_scanner_token *to
 
 		} else {
 
-		
+
 		{
 			AACTYPE aach;
 			unsigned int aaaccept = 0;
@@ -26026,7 +26026,7 @@ static PHP_METHOD(Phalcon_Annotations_Adapter_AbstractAdapter, getMethod)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&methods), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&methodKey);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&methodKey, _3$$3);
 				} else {
 					ZVAL_LONG(&methodKey, _2$$3);
@@ -26139,11 +26139,11 @@ zend_object *zephir_init_properties_Phalcon_Annotations_Adapter_AbstractAdapter(
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -27547,11 +27547,11 @@ zend_object *zephir_init_properties_Phalcon_Events_Manager(zend_class_entry *cla
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -29277,11 +29277,11 @@ zend_object *zephir_init_properties_Phalcon_Dispatcher_AbstractDispatcher(zend_c
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -32673,11 +32673,11 @@ zend_object *zephir_init_properties_Phalcon_Http_Cookie(zend_class_entry *class_
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -33705,7 +33705,7 @@ static PHP_METHOD(Phalcon_Http_Request, getHeaders)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&server), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&name, _3);
 			} else {
 				ZVAL_LONG(&name, _2);
@@ -34675,7 +34675,7 @@ static PHP_METHOD(Phalcon_Http_Request, getUploadedFiles)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&superFiles), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&prefix);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&prefix, _3$$3);
 				} else {
 					ZVAL_LONG(&prefix, _2$$3);
@@ -37079,7 +37079,7 @@ static PHP_METHOD(Phalcon_Http_Request, smoothFiles)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&names), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&idx);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&idx, _3);
 			} else {
 				ZVAL_LONG(&idx, _2);
@@ -38195,11 +38195,11 @@ zend_object *zephir_init_properties_Phalcon_Http_Request(zend_class_entry *class
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -39246,7 +39246,7 @@ static PHP_METHOD(Phalcon_Http_Response, setHeaders)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&name, _3);
 			} else {
 				ZVAL_LONG(&name, _2);
@@ -39446,7 +39446,7 @@ static PHP_METHOD(Phalcon_Http_Response, setStatusCode)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&currentHeadersRaw), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&key, _5);
 			} else {
 				ZVAL_LONG(&key, _4);
@@ -39728,11 +39728,11 @@ zend_object *zephir_init_properties_Phalcon_Http_Response(zend_class_entry *clas
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -40330,11 +40330,11 @@ zend_object *zephir_init_properties_Phalcon_Http_Response_Cookies(zend_class_ent
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -40554,7 +40554,7 @@ static PHP_METHOD(Phalcon_Http_Response_Headers, send)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_3), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&header);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&header, _7);
 			} else {
 				ZVAL_LONG(&header, _6);
@@ -40691,11 +40691,11 @@ zend_object *zephir_init_properties_Phalcon_Http_Response_Headers(zend_class_ent
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -41845,7 +41845,7 @@ static PHP_METHOD(Phalcon_Db_Dialect, escape)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&parts), _10, _11, _8)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_11 != NULL) { 
+			if (_11 != NULL) {
 				ZVAL_STR_COPY(&key, _11);
 			} else {
 				ZVAL_LONG(&key, _10);
@@ -44374,11 +44374,11 @@ zend_object *zephir_init_properties_Phalcon_Db_Dialect(zend_class_entry *class_t
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -52095,7 +52095,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_AbstractAdapter, describeIndexes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&indexes), _10, _11, _8)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_11 != NULL) { 
+			if (_11 != NULL) {
 				ZVAL_STR_COPY(&name, _11);
 			} else {
 				ZVAL_LONG(&name, _10);
@@ -52325,7 +52325,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_AbstractAdapter, describeReferences)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&references), _22, _23, _20)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_23 != NULL) { 
+			if (_23 != NULL) {
 				ZVAL_STR_COPY(&name, _23);
 			} else {
 				ZVAL_LONG(&name, _22);
@@ -53195,7 +53195,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_AbstractAdapter, insert)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&values), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&position);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&position, _5);
 			} else {
 				ZVAL_LONG(&position, _4);
@@ -53398,7 +53398,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_AbstractAdapter, insertAsDict)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(data), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&field);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&field, _4);
 			} else {
 				ZVAL_LONG(&field, _3);
@@ -54091,7 +54091,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_AbstractAdapter, update)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(values), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&position);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&position, _3);
 			} else {
 				ZVAL_LONG(&position, _2);
@@ -54305,7 +54305,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_AbstractAdapter, updateAsDict)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(data), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&field);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&field, _4);
 			} else {
 				ZVAL_LONG(&field, _3);
@@ -54419,11 +54419,11 @@ zend_object *zephir_init_properties_Phalcon_Db_Adapter_AbstractAdapter(zend_clas
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -55004,7 +55004,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, connect)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&dsnAttributesMap), _8, _9, _6)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_9 != NULL) { 
+			if (_9 != NULL) {
 				ZVAL_STR_COPY(&key, _9);
 			} else {
 				ZVAL_LONG(&key, _8);
@@ -55355,7 +55355,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, executePrepared)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&placeholders), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&wildcard);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&wildcard, _3);
 			} else {
 				ZVAL_LONG(&wildcard, _2);
@@ -55432,7 +55432,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, executePrepared)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&castValue), _12$$22, _13$$22, _10$$22)
 						{
 							ZEPHIR_INIT_NVAR(&position);
-							if (_13$$22 != NULL) { 
+							if (_13$$22 != NULL) {
 								ZVAL_STR_COPY(&position, _13$$22);
 							} else {
 								ZVAL_LONG(&position, _12$$22);
@@ -55492,7 +55492,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, executePrepared)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&value), _20$$31, _21$$31, _18$$31)
 						{
 							ZEPHIR_INIT_NVAR(&position);
-							if (_21$$31 != NULL) { 
+							if (_21$$31 != NULL) {
 								ZVAL_STR_COPY(&position, _21$$31);
 							} else {
 								ZVAL_LONG(&position, _20$$31);
@@ -55613,7 +55613,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, executePrepared)
 							ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&castValue), _30$$53, _31$$53, _28$$53)
 							{
 								ZEPHIR_INIT_NVAR(&position);
-								if (_31$$53 != NULL) { 
+								if (_31$$53 != NULL) {
 									ZVAL_STR_COPY(&position, _31$$53);
 								} else {
 									ZVAL_LONG(&position, _30$$53);
@@ -55673,7 +55673,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, executePrepared)
 							ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&value), _38$$62, _39$$62, _36$$62)
 							{
 								ZEPHIR_INIT_NVAR(&position);
-								if (_39$$62 != NULL) { 
+								if (_39$$62 != NULL) {
 									ZVAL_STR_COPY(&position, _39$$62);
 								} else {
 									ZVAL_LONG(&position, _38$$62);
@@ -56077,7 +56077,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_AbstractPdo, prepareRealSql)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&parameters), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$3);
 				} else {
 					ZVAL_LONG(&key, _2$$3);
@@ -57214,7 +57214,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_Mysql, describeIndexes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&indexes), _26, _27, _24)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_27 != NULL) { 
+			if (_27 != NULL) {
 				ZVAL_STR_COPY(&name, _27);
 			} else {
 				ZVAL_LONG(&name, _26);
@@ -57478,7 +57478,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_Mysql, describeReferences)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&references), _26, _27, _24)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_27 != NULL) { 
+			if (_27 != NULL) {
 				ZVAL_STR_COPY(&name, _27);
 			} else {
 				ZVAL_LONG(&name, _26);
@@ -58796,7 +58796,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_Postgresql, describeReferences)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&references), _26, _27, _24)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_27 != NULL) { 
+			if (_27 != NULL) {
 				ZVAL_STR_COPY(&name, _27);
 			} else {
 				ZVAL_LONG(&name, _26);
@@ -59906,7 +59906,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_Sqlite, describeIndexes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&indexes), _47, _48, _45)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_48 != NULL) { 
+			if (_48 != NULL) {
 				ZVAL_STR_COPY(&name, _48);
 			} else {
 				ZVAL_LONG(&name, _47);
@@ -60045,7 +60045,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_Sqlite, describeReferences)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_0), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&number);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&number, _7);
 			} else {
 				ZVAL_LONG(&number, _6);
@@ -60151,7 +60151,7 @@ static PHP_METHOD(Phalcon_Db_Adapter_Pdo_Sqlite, describeReferences)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&references), _24, _25, _22)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_25 != NULL) { 
+			if (_25 != NULL) {
 				ZVAL_STR_COPY(&name, _25);
 			} else {
 				ZVAL_LONG(&name, _24);
@@ -60702,11 +60702,11 @@ zend_object *zephir_init_properties_Phalcon_Db_Result_PdoResult(zend_class_entry
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -62173,11 +62173,11 @@ zend_object *zephir_init_properties_Phalcon_Encryption_Crypt(zend_class_entry *c
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -64928,11 +64928,11 @@ zend_object *zephir_init_properties_Phalcon_Encryption_Security_JWT_Validator(ze
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -64991,11 +64991,11 @@ zend_object *zephir_init_properties_Phalcon_Encryption_Security_JWT_Token_Abstra
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -65772,7 +65772,7 @@ static PHP_METHOD(Phalcon_Encryption_Security_JWT_Token_Token, validate)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&methods), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&method);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&method, _5);
 			} else {
 				ZVAL_LONG(&method, _4);
@@ -67594,11 +67594,11 @@ zend_object *zephir_init_properties_Phalcon_Cli_Console(zend_class_entry *class_
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -67971,11 +67971,11 @@ zend_object *zephir_init_properties_Phalcon_Cli_Dispatcher(zend_class_entry *cla
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
 	ZVAL_UNDEF(&_9$$7);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -68491,7 +68491,7 @@ static PHP_METHOD(Phalcon_Cli_Router, handle)
 							ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paths), _7$$12, _8$$12, _5$$12)
 							{
 								ZEPHIR_INIT_NVAR(&part);
-								if (_8$$12 != NULL) { 
+								if (_8$$12 != NULL) {
 									ZVAL_STR_COPY(&part, _8$$12);
 								} else {
 									ZVAL_LONG(&part, _7$$12);
@@ -68626,7 +68626,7 @@ static PHP_METHOD(Phalcon_Cli_Router, handle)
 								ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paths), _20$$32, _21$$32, _18$$32)
 								{
 									ZEPHIR_INIT_NVAR(&part);
-									if (_21$$32 != NULL) { 
+									if (_21$$32 != NULL) {
 										ZVAL_STR_COPY(&part, _21$$32);
 									} else {
 										ZVAL_LONG(&part, _20$$32);
@@ -68913,11 +68913,11 @@ zend_object *zephir_init_properties_Phalcon_Cli_Router(zend_class_entry *class_t
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -69435,7 +69435,7 @@ static PHP_METHOD(Phalcon_Cli_Router_Route, extractNamedParams)
 	array_init(&matches);
 	ZEPHIR_INIT_VAR(&route);
 	for (_0 = 0; _0 < Z_STRLEN_P(&pattern); _0++) {
-		cursor = _0; 
+		cursor = _0;
 		ch = ZEPHIR_STRING_OFFSET(&pattern, _0);
 		if (parenthesesCount == 0) {
 			if (ch == '{') {
@@ -69459,7 +69459,7 @@ static PHP_METHOD(Phalcon_Cli_Router_Route, extractNamedParams)
 						zephir_cast_to_string(&_4$$10, &_3$$10);
 						ZEPHIR_CPY_WRT(&item, &_4$$10);
 						for (_5$$10 = 0; _5$$10 < Z_STRLEN_P(&item); _5$$10++) {
-							cursorVar = _5$$10; 
+							cursorVar = _5$$10;
 							ch = ZEPHIR_STRING_OFFSET(&item, _5$$10);
 							if (ch == '\0') {
 								break;
@@ -69915,11 +69915,11 @@ zend_object *zephir_init_properties_Phalcon_Cli_Router_Route(zend_class_entry *c
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -70186,7 +70186,7 @@ static PHP_METHOD(Phalcon_Config_Config, toArray)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -70273,7 +70273,7 @@ static PHP_METHOD(Phalcon_Config_Config, internalMerge)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&target), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -71024,7 +71024,7 @@ static PHP_METHOD(Phalcon_Config_Adapter_Ini, __construct)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&iniConfig), _7, _8, _5)
 		{
 			ZEPHIR_INIT_NVAR(&section);
-			if (_8 != NULL) { 
+			if (_8 != NULL) {
 				ZVAL_STR_COPY(&section, _8);
 			} else {
 				ZVAL_LONG(&section, _7);
@@ -71039,7 +71039,7 @@ static PHP_METHOD(Phalcon_Config_Adapter_Ini, __construct)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&directives), _11$$5, _12$$5, _9$$5)
 					{
 						ZEPHIR_INIT_NVAR(&path);
-						if (_12$$5 != NULL) { 
+						if (_12$$5 != NULL) {
 							ZVAL_STR_COPY(&path, _12$$5);
 						} else {
 							ZVAL_LONG(&path, _11$$5);
@@ -71109,7 +71109,7 @@ static PHP_METHOD(Phalcon_Config_Adapter_Ini, __construct)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&directives), _24$$10, _25$$10, _22$$10)
 						{
 							ZEPHIR_INIT_NVAR(&path);
-							if (_25$$10 != NULL) { 
+							if (_25$$10 != NULL) {
 								ZVAL_STR_COPY(&path, _25$$10);
 							} else {
 								ZVAL_LONG(&path, _24$$10);
@@ -71273,7 +71273,7 @@ static PHP_METHOD(Phalcon_Config_Adapter_Ini, castArray)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&ini), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -72601,11 +72601,11 @@ zend_object *zephir_init_properties_Phalcon_Session_Manager(zend_class_entry *cl
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -73052,11 +73052,11 @@ zend_object *zephir_init_properties_Phalcon_Session_Adapter_Noop(zend_class_entr
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -75588,11 +75588,11 @@ zend_object *zephir_init_properties_Phalcon_Storage_Adapter_AbstractAdapter(zend
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -77477,11 +77477,11 @@ zend_object *zephir_init_properties_Phalcon_Storage_Adapter_Memory(zend_class_en
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -80221,11 +80221,11 @@ zend_object *zephir_init_properties_Phalcon_Storage_Adapter_Weak(zend_class_entr
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -80803,7 +80803,7 @@ static PHP_METHOD(Phalcon_Cache_AbstractCache, doSetMultiple)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(values), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&key, _5);
 			} else {
 				ZVAL_LONG(&key, _4);
@@ -81822,11 +81822,11 @@ zend_object *zephir_init_properties_Phalcon_DataMapper_Pdo_Connection(zend_class
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -81911,7 +81911,7 @@ static PHP_METHOD(Phalcon_DataMapper_Pdo_ConnectionLocator, __construct)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&read), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&name, _3);
 			} else {
 				ZVAL_LONG(&name, _2);
@@ -81947,7 +81947,7 @@ static PHP_METHOD(Phalcon_DataMapper_Pdo_ConnectionLocator, __construct)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&write), _7, _8, _5)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_8 != NULL) { 
+			if (_8 != NULL) {
 				ZVAL_STR_COPY(&name, _8);
 			} else {
 				ZVAL_LONG(&name, _7);
@@ -82190,11 +82190,11 @@ zend_object *zephir_init_properties_Phalcon_DataMapper_Pdo_ConnectionLocator(zen
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -82622,7 +82622,7 @@ static PHP_METHOD(Phalcon_DataMapper_Pdo_Profiler_MemoryLogger, log)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&context), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -82667,11 +82667,11 @@ zend_object *zephir_init_properties_Phalcon_DataMapper_Pdo_Profiler_MemoryLogger
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -82988,11 +82988,11 @@ zend_object *zephir_init_properties_Phalcon_DataMapper_Pdo_Profiler_Profiler(zen
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -84023,7 +84023,7 @@ static PHP_METHOD(Phalcon_DataMapper_Pdo_Connection_AbstractConnection, perform)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&values), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&name, _5);
 			} else {
 				ZVAL_LONG(&name, _4);
@@ -84222,7 +84222,7 @@ static PHP_METHOD(Phalcon_DataMapper_Pdo_Connection_AbstractConnection, quote)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(value), _5, _6, _3)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_6 != NULL) { 
+			if (_6 != NULL) {
 				ZVAL_STR_COPY(&key, _6);
 			} else {
 				ZVAL_LONG(&key, _5);
@@ -84888,7 +84888,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_AbstractConditions, whereEquals)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columnsValues), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -85965,11 +85965,11 @@ zend_object *zephir_init_properties_Phalcon_DataMapper_Query_AbstractQuery(zend_
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -86162,7 +86162,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_Bind, setValues)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&values), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -86319,11 +86319,11 @@ zend_object *zephir_init_properties_Phalcon_DataMapper_Query_Bind(zend_class_ent
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -86624,7 +86624,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_Insert, columns)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columns), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&column);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&column, _3);
 			} else {
 				ZVAL_LONG(&column, _2);
@@ -86883,7 +86883,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_Insert, buildColumns)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_1), _5, _6, _3)
 		{
 			ZEPHIR_INIT_NVAR(&column);
-			if (_6 != NULL) { 
+			if (_6 != NULL) {
 				ZVAL_STR_COPY(&column, _6);
 			} else {
 				ZVAL_LONG(&column, _5);
@@ -87408,7 +87408,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_Select, columns)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columns), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -88221,7 +88221,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_Update, columns)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columns), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&column);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&column, _3);
 			} else {
 				ZVAL_LONG(&column, _2);
@@ -88464,7 +88464,7 @@ static PHP_METHOD(Phalcon_DataMapper_Query_Update, buildColumns)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_1), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&column);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&column, _5);
 			} else {
 				ZVAL_LONG(&column, _4);
@@ -88827,7 +88827,7 @@ static PHP_METHOD(Phalcon_Filter_Filter, init)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&mapper), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&name, _3);
 			} else {
 				ZVAL_LONG(&name, _2);
@@ -88929,7 +88929,7 @@ static PHP_METHOD(Phalcon_Filter_Filter, processArraySanitizers)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&sanitizers), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&sanitizerKey);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&sanitizerKey, _3);
 			} else {
 				ZVAL_LONG(&sanitizerKey, _2);
@@ -89045,7 +89045,7 @@ static PHP_METHOD(Phalcon_Filter_Filter, processArrayValues)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&values), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&itemKey);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&itemKey, _3);
 			} else {
 				ZVAL_LONG(&itemKey, _2);
@@ -89250,11 +89250,11 @@ zend_object *zephir_init_properties_Phalcon_Filter_Filter(zend_class_entry *clas
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -89624,7 +89624,7 @@ static PHP_METHOD(Phalcon_Filter_Validation, bind)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(data), _8, _9, _6)
 		{
 			ZEPHIR_INIT_NVAR(&field);
-			if (_9 != NULL) { 
+			if (_9 != NULL) {
 				ZVAL_STR_COPY(&field, _9);
 			} else {
 				ZVAL_LONG(&field, _8);
@@ -90327,7 +90327,7 @@ static PHP_METHOD(Phalcon_Filter_Validation, validate)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&validatorData), _8, _9, _6)
 		{
 			ZEPHIR_INIT_NVAR(&field);
-			if (_9 != NULL) { 
+			if (_9 != NULL) {
 				ZVAL_STR_COPY(&field, _9);
 			} else {
 				ZVAL_LONG(&field, _8);
@@ -90734,11 +90734,11 @@ zend_object *zephir_init_properties_Phalcon_Filter_Validation(zend_class_entry *
 	ZVAL_UNDEF(&_7$$6);
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -92346,7 +92346,7 @@ static PHP_METHOD(Phalcon_Filter_Validation_AbstractValidator, setTemplates)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&templates), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&field);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&field, _4);
 			} else {
 				ZVAL_LONG(&field, _3);
@@ -92541,11 +92541,11 @@ zend_object *zephir_init_properties_Phalcon_Filter_Validation_AbstractValidator(
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -92681,11 +92681,11 @@ zend_object *zephir_init_properties_Phalcon_Filter_Validation_AbstractValidatorC
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -93604,7 +93604,7 @@ static PHP_METHOD(Phalcon_Filter_Validation_Validator_CreditCard, verifyByLuhnAl
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&digits), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&position);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&position, _5);
 			} else {
 				ZVAL_LONG(&position, _4);
@@ -94274,7 +94274,7 @@ static PHP_METHOD(Phalcon_Filter_Validation_Validator_File, __construct)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&options), _5, _6, _3)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_6 != NULL) { 
+			if (_6 != NULL) {
 				ZVAL_STR_COPY(&key, _6);
 			} else {
 				ZVAL_LONG(&key, _5);
@@ -95401,7 +95401,7 @@ static PHP_METHOD(Phalcon_Filter_Validation_Validator_StringLength, __construct)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&options), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -96084,7 +96084,7 @@ static PHP_METHOD(Phalcon_Filter_Validation_Validator_Uniqueness, isUniquenessMo
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&except), _17$$7, _18$$7, _15$$7)
 						{
 							ZEPHIR_INIT_NVAR(&singleField);
-							if (_18$$7 != NULL) { 
+							if (_18$$7 != NULL) {
 								ZVAL_STR_COPY(&singleField, _18$$7);
 							} else {
 								ZVAL_LONG(&singleField, _17$$7);
@@ -96488,7 +96488,7 @@ static PHP_METHOD(Phalcon_Filter_Validation_Validator_Uniqueness, isUniquenessMo
 							ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&except), _94$$38, _95$$38, _92$$38)
 							{
 								ZEPHIR_INIT_NVAR(&singleField);
-								if (_95$$38 != NULL) { 
+								if (_95$$38 != NULL) {
 									ZVAL_STR_COPY(&singleField, _95$$38);
 								} else {
 									ZVAL_LONG(&singleField, _94$$38);
@@ -104870,11 +104870,11 @@ zend_object *zephir_init_properties_Phalcon_Assets_Collection(zend_class_entry *
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -107149,11 +107149,11 @@ zend_object *zephir_init_properties_Phalcon_Assets_Manager(zend_class_entry *cla
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -107924,11 +107924,11 @@ zend_object *zephir_init_properties_Phalcon_Messages_Message(zend_class_entry *c
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -108602,11 +108602,11 @@ zend_object *zephir_init_properties_Phalcon_Application_AbstractApplication(zend
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -109610,11 +109610,11 @@ zend_object *zephir_init_properties_Phalcon_Translate_Adapter_Csv(zend_class_ent
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -109971,7 +109971,7 @@ static PHP_METHOD(Phalcon_Translate_Adapter_Gettext, setDirectory)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(directory), _2$$4, _3$$4, _0$$4)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$4 != NULL) { 
+				if (_3$$4 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$4);
 				} else {
 					ZVAL_LONG(&key, _2$$4);
@@ -110407,11 +110407,11 @@ zend_object *zephir_init_properties_Phalcon_Translate_Adapter_NativeArray(zend_c
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -111114,11 +111114,11 @@ zend_object *zephir_init_properties_Phalcon_Flash_AbstractFlash(zend_class_entry
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -111462,7 +111462,7 @@ static PHP_METHOD(Phalcon_Flash_Session, output)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&messages), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&type);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&type, _4);
 			} else {
 				ZVAL_LONG(&type, _3);
@@ -112444,11 +112444,11 @@ zend_object *zephir_init_properties_Phalcon_Paginator_Repository(zend_class_entr
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -116000,11 +116000,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Micro(zend_class_entry *class_ty
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
 	ZVAL_UNDEF(&_9$$7);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -116754,7 +116754,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, __unserialize)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&properties), _11$$6, _12$$6, _9$$6)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_12$$6 != NULL) { 
+				if (_12$$6 != NULL) {
 					ZVAL_STR_COPY(&key, _12$$6);
 				} else {
 					ZVAL_LONG(&key, _11$$6);
@@ -116905,7 +116905,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, assign)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$3);
 				} else {
 					ZVAL_LONG(&key, _2$$3);
@@ -117163,7 +117163,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, cloneResult)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&key, _4);
 			} else {
 				ZVAL_LONG(&key, _3);
@@ -117313,7 +117313,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, cloneResultMap)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&key, _4);
 			} else {
 				ZVAL_LONG(&key, _3);
@@ -117619,7 +117619,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, cloneResultMapHydrate)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -117761,7 +117761,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, collectRelatedToSave)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&related), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&name, _5);
 			} else {
 				ZVAL_LONG(&name, _4);
@@ -118482,7 +118482,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, getChangedFields)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&allAttributes), _7, _8, _5)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_8 != NULL) { 
+			if (_8 != NULL) {
 				ZVAL_STR_COPY(&name, _8);
 			} else {
 				ZVAL_LONG(&name, _7);
@@ -118957,7 +118957,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, getUpdatedFields)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&snapshot), _9, _10, _7)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_10 != NULL) { 
+			if (_10 != NULL) {
 				ZVAL_STR_COPY(&name, _10);
 			} else {
 				ZVAL_LONG(&name, _9);
@@ -119824,7 +119824,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, unserialize)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&properties), _11$$7, _12$$7, _9$$7)
 				{
 					ZEPHIR_INIT_NVAR(&key);
-					if (_12$$7 != NULL) { 
+					if (_12$$7 != NULL) {
 						ZVAL_STR_COPY(&key, _12$$7);
 					} else {
 						ZVAL_LONG(&key, _11$$7);
@@ -120027,7 +120027,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, setOldSnapshotData)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$3);
 				} else {
 					ZVAL_LONG(&key, _2$$3);
@@ -120197,7 +120197,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, setSnapshotData)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$3);
 				} else {
 					ZVAL_LONG(&key, _2$$3);
@@ -120930,7 +120930,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, checkForeignKeysRestrict)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&fields), _8$$7, _9$$7, _6$$7)
 					{
 						ZEPHIR_INIT_NVAR(&position);
-						if (_9$$7 != NULL) { 
+						if (_9$$7 != NULL) {
 							ZVAL_STR_COPY(&position, _9$$7);
 						} else {
 							ZVAL_LONG(&position, _8$$7);
@@ -121091,7 +121091,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, checkForeignKeysRestrict)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&fields), _32$$26, _33$$26, _30$$26)
 						{
 							ZEPHIR_INIT_NVAR(&position);
-							if (_33$$26 != NULL) { 
+							if (_33$$26 != NULL) {
 								ZVAL_STR_COPY(&position, _33$$26);
 							} else {
 								ZVAL_LONG(&position, _32$$26);
@@ -121939,7 +121939,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, doLowInsert)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&unsetDefaultValues), _57$$56, _58$$56, _55$$56)
 			{
 				ZEPHIR_INIT_NVAR(&attributeField);
-				if (_58$$56 != NULL) { 
+				if (_58$$56 != NULL) {
 					ZVAL_STR_COPY(&attributeField, _58$$56);
 				} else {
 					ZVAL_LONG(&attributeField, _57$$56);
@@ -123829,7 +123829,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, preSaveRelatedRecords)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(related), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&name, _5);
 			} else {
 				ZVAL_LONG(&name, _4);
@@ -124171,7 +124171,7 @@ static PHP_METHOD(Phalcon_Mvc_Model, postSaveRelatedRecords)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(related), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&name, _4);
 			} else {
 				ZVAL_LONG(&name, _3);
@@ -125707,11 +125707,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model(zend_class_entry *class_ty
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
 	ZVAL_UNDEF(&_13$$9);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -126739,7 +126739,7 @@ static PHP_METHOD(Phalcon_Mvc_Router, getRouteById)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_3), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&key, _7);
 			} else {
 				ZVAL_LONG(&key, _6);
@@ -126828,7 +126828,7 @@ static PHP_METHOD(Phalcon_Mvc_Router, getRouteByName)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_3), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&key, _7);
 			} else {
 				ZVAL_LONG(&key, _6);
@@ -127168,7 +127168,7 @@ static PHP_METHOD(Phalcon_Mvc_Router, handle)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paths), _23$$32, _24$$32, _21$$32)
 						{
 							ZEPHIR_INIT_NVAR(&part);
-							if (_24$$32 != NULL) { 
+							if (_24$$32 != NULL) {
 								ZVAL_STR_COPY(&part, _24$$32);
 							} else {
 								ZVAL_LONG(&part, _23$$32);
@@ -127420,7 +127420,7 @@ static PHP_METHOD(Phalcon_Mvc_Router, handle)
 							ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paths), _54$$77, _55$$77, _52$$77)
 							{
 								ZEPHIR_INIT_NVAR(&part);
-								if (_55$$77 != NULL) { 
+								if (_55$$77 != NULL) {
 									ZVAL_STR_COPY(&part, _55$$77);
 								} else {
 									ZVAL_LONG(&part, _54$$77);
@@ -128053,11 +128053,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Router(zend_class_entry *class_t
 	ZVAL_UNDEF(&_7$$6);
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -129253,7 +129253,7 @@ static PHP_METHOD(Phalcon_Mvc_View, has)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&engines), _8$$4, _9$$4, _6$$4)
 				{
 					ZEPHIR_INIT_NVAR(&extension);
-					if (_9$$4 != NULL) { 
+					if (_9$$4 != NULL) {
 						ZVAL_STR_COPY(&extension, _9$$4);
 					} else {
 						ZVAL_LONG(&extension, _8$$4);
@@ -129308,7 +129308,7 @@ static PHP_METHOD(Phalcon_Mvc_View, has)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&engines), _15$$9, _16$$9, _13$$9)
 					{
 						ZEPHIR_INIT_NVAR(&extension);
-						if (_16$$9 != NULL) { 
+						if (_16$$9 != NULL) {
 							ZVAL_STR_COPY(&extension, _16$$9);
 						} else {
 							ZVAL_LONG(&extension, _15$$9);
@@ -129409,7 +129409,7 @@ static PHP_METHOD(Phalcon_Mvc_View, partial)
 		zephir_update_property_zval(this_ptr, ZEND_STRL("viewParams"), &_1$$3);
 		ZEPHIR_INIT_VAR(&_2$$3);
 		ZEPHIR_CREATE_SYMBOL_TABLE();
-		
+
 	}
 	ZEPHIR_CALL_METHOD(&_3, this_ptr, "loadtemplateengines", NULL, 0);
 	zephir_check_call_status();
@@ -129912,7 +129912,7 @@ static PHP_METHOD(Phalcon_Mvc_View, setViewsDir)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(viewsDir), _4$$5, _5$$5, _2$$5)
 			{
 				ZEPHIR_INIT_NVAR(&position);
-				if (_5$$5 != NULL) { 
+				if (_5$$5 != NULL) {
 					ZVAL_STR_COPY(&position, _5$$5);
 				} else {
 					ZVAL_LONG(&position, _4$$5);
@@ -130136,7 +130136,7 @@ static PHP_METHOD(Phalcon_Mvc_View, engineRender)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&engines), _8$$3, _9$$3, _6$$3)
 				{
 					ZEPHIR_INIT_NVAR(&extension);
-					if (_9$$3 != NULL) { 
+					if (_9$$3 != NULL) {
 						ZVAL_STR_COPY(&extension, _9$$3);
 					} else {
 						ZVAL_LONG(&extension, _8$$3);
@@ -130252,7 +130252,7 @@ static PHP_METHOD(Phalcon_Mvc_View, engineRender)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&engines), _27$$16, _28$$16, _25$$16)
 					{
 						ZEPHIR_INIT_NVAR(&extension);
-						if (_28$$16 != NULL) { 
+						if (_28$$16 != NULL) {
 							ZVAL_STR_COPY(&extension, _28$$16);
 						} else {
 							ZVAL_LONG(&extension, _27$$16);
@@ -130468,7 +130468,7 @@ static PHP_METHOD(Phalcon_Mvc_View, loadTemplateEngines)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&registeredEngines), _5$$5, _6$$5, _3$$5)
 				{
 					ZEPHIR_INIT_NVAR(&extension);
-					if (_6$$5 != NULL) { 
+					if (_6$$5 != NULL) {
 						ZVAL_STR_COPY(&extension, _6$$5);
 					} else {
 						ZVAL_LONG(&extension, _5$$5);
@@ -130704,7 +130704,7 @@ static PHP_METHOD(Phalcon_Mvc_View, processRender)
 	ZEPHIR_CPY_WRT(&eventsManager, &_2);
 	ZEPHIR_INIT_VAR(&_4);
 	ZEPHIR_CREATE_SYMBOL_TABLE();
-	
+
 	_5 = fireEvents;
 	if (_5) {
 		_5 = Z_TYPE_P(&eventsManager) == IS_OBJECT;
@@ -130946,11 +130946,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_View(zend_class_entry *class_typ
 	ZVAL_UNDEF(&_11$$8);
 	ZVAL_UNDEF(&_13$$9);
 	ZVAL_UNDEF(&_15$$10);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -131412,7 +131412,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Binder, bindToHandler)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&paramsCache), _5$$4, _6$$4, _3$$4)
 			{
 				ZEPHIR_INIT_NVAR(&paramKey);
-				if (_6$$4 != NULL) { 
+				if (_6$$4 != NULL) {
 					ZVAL_STR_COPY(&paramKey, _6$$4);
 				} else {
 					ZVAL_LONG(&paramKey, _5$$4);
@@ -131633,7 +131633,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Binder, getParamsFromReflection)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&methodParams), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&paramKey);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&paramKey, _4);
 			} else {
 				ZVAL_LONG(&paramKey, _3);
@@ -131828,11 +131828,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Binder(zend_class_entry *c
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -132385,7 +132385,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Criteria, fromInput)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _4$$3, _5$$3, _2$$3)
 			{
 				ZEPHIR_INIT_NVAR(&field);
-				if (_5$$3 != NULL) { 
+				if (_5$$3 != NULL) {
 					ZVAL_STR_COPY(&field, _5$$3);
 				} else {
 					ZVAL_LONG(&field, _4$$3);
@@ -133497,11 +133497,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Criteria(zend_class_entry 
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -135456,7 +135456,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Manager, getRelationRecords)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_16$$11), _19$$11, _20$$11, _17$$11)
 			{
 				ZEPHIR_INIT_NVAR(&refPosition);
-				if (_20$$11 != NULL) { 
+				if (_20$$11 != NULL) {
 					ZVAL_STR_COPY(&refPosition, _20$$11);
 				} else {
 					ZVAL_LONG(&refPosition, _19$$11);
@@ -137041,7 +137041,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Manager, mergeFindParameters)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(findParamsOne), _4$$5, _5$$5, _2$$5)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_5$$5 != NULL) { 
+				if (_5$$5 != NULL) {
 					ZVAL_STR_COPY(&key, _5$$5);
 				} else {
 					ZVAL_LONG(&key, _4$$5);
@@ -137107,7 +137107,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Manager, mergeFindParameters)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(findParamsTwo), _14$$16, _15$$16, _12$$16)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_15$$16 != NULL) { 
+				if (_15$$16 != NULL) {
 					ZVAL_STR_COPY(&key, _15$$16);
 				} else {
 					ZVAL_LONG(&key, _14$$16);
@@ -137309,11 +137309,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Manager(zend_class_entry *
 	ZVAL_UNDEF(&_39$$22);
 	ZVAL_UNDEF(&_41$$23);
 	ZVAL_UNDEF(&_43$$24);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -138697,11 +138697,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_MetaData(zend_class_entry 
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -139856,7 +139856,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, executeInsert)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&values), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&number);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&number, _5);
 			} else {
 				ZVAL_LONG(&number, _4);
@@ -140319,7 +140319,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, executeSelect)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columns), _16, _17, _14)
 		{
 			ZEPHIR_INIT_NVAR(&aliasCopy);
-			if (_17 != NULL) { 
+			if (_17 != NULL) {
 				ZVAL_STR_COPY(&aliasCopy, _17);
 			} else {
 				ZVAL_LONG(&aliasCopy, _16);
@@ -140631,7 +140631,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, executeSelect)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&bindParams), _62, _63, _60)
 		{
 			ZEPHIR_INIT_NVAR(&wildcard);
-			if (_63 != NULL) { 
+			if (_63 != NULL) {
 				ZVAL_STR_COPY(&wildcard, _63);
 			} else {
 				ZVAL_LONG(&wildcard, _62);
@@ -140689,7 +140689,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, executeSelect)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&bindTypes), _68, _69, _66)
 		{
 			ZEPHIR_INIT_NVAR(&typeWildcard);
-			if (_69 != NULL) { 
+			if (_69 != NULL) {
 				ZVAL_STR_COPY(&typeWildcard, _69);
 			} else {
 				ZVAL_LONG(&typeWildcard, _68);
@@ -140833,7 +140833,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, executeSelect)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columnMap), _83$$93, _84$$93, _81$$93)
 						{
 							ZEPHIR_INIT_NVAR(&column);
-							if (_84$$93 != NULL) { 
+							if (_84$$93 != NULL) {
 								ZVAL_STR_COPY(&column, _84$$93);
 							} else {
 								ZVAL_LONG(&column, _83$$93);
@@ -141044,7 +141044,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, executeUpdate)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&fields), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&number);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&number, _5);
 			} else {
 				ZVAL_LONG(&number, _4);
@@ -142876,7 +142876,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getJoins)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&joinPrepared), _21, _22, _19)
 		{
 			ZEPHIR_INIT_NVAR(&joinAliasName);
-			if (_22 != NULL) { 
+			if (_22 != NULL) {
 				ZVAL_STR_COPY(&joinAliasName, _22);
 			} else {
 				ZVAL_LONG(&joinAliasName, _21);
@@ -142923,7 +142923,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getJoins)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&joinPrepared), _29$$21, _30$$21, _27$$21)
 			{
 				ZEPHIR_INIT_NVAR(&joinAliasName);
-				if (_30$$21 != NULL) { 
+				if (_30$$21 != NULL) {
 					ZVAL_STR_COPY(&joinAliasName, _30$$21);
 				} else {
 					ZVAL_LONG(&joinAliasName, _29$$21);
@@ -143021,7 +143021,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getJoins)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&fromModels), _44, _45, _42)
 		{
 			ZEPHIR_INIT_NVAR(&fromModelName);
-			if (_45 != NULL) { 
+			if (_45 != NULL) {
 				ZVAL_STR_COPY(&fromModelName, _45);
 			} else {
 				ZVAL_LONG(&fromModelName, _44);
@@ -143033,7 +143033,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getJoins)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&joinModels), _48$$26, _49$$26, _46$$26)
 				{
 					ZEPHIR_INIT_NVAR(&joinAlias);
-					if (_49$$26 != NULL) { 
+					if (_49$$26 != NULL) {
 						ZVAL_STR_COPY(&joinAlias, _49$$26);
 					} else {
 						ZVAL_LONG(&joinAlias, _48$$26);
@@ -143263,7 +143263,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getJoins)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&joinModels), _78$$55, _79$$55, _76$$55)
 					{
 						ZEPHIR_INIT_NVAR(&joinAlias);
-						if (_79$$55 != NULL) { 
+						if (_79$$55 != NULL) {
 							ZVAL_STR_COPY(&joinAlias, _79$$55);
 						} else {
 							ZVAL_LONG(&joinAlias, _78$$55);
@@ -143590,7 +143590,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getMultiJoin)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&fields), _3$$3, _4$$3, _1$$3)
 			{
 				ZEPHIR_INIT_NVAR(&field);
-				if (_4$$3 != NULL) { 
+				if (_4$$3 != NULL) {
 					ZVAL_STR_COPY(&field, _4$$3);
 				} else {
 					ZVAL_LONG(&field, _3$$3);
@@ -144383,7 +144383,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getSelectColumn)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_0$$4), _3$$4, _4$$4, _1$$4)
 			{
 				ZEPHIR_INIT_NVAR(&modelName);
-				if (_4$$4 != NULL) { 
+				if (_4$$4 != NULL) {
 					ZVAL_STR_COPY(&modelName, _4$$4);
 				} else {
 					ZVAL_LONG(&modelName, _3$$4);
@@ -144631,7 +144631,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query, getSingleJoin)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&fields), _7$$4, _8$$4, _5$$4)
 			{
 				ZEPHIR_INIT_NVAR(&position);
-				if (_8$$4 != NULL) { 
+				if (_8$$4 != NULL) {
 					ZVAL_STR_COPY(&position, _8$$4);
 				} else {
 					ZVAL_LONG(&position, _7$$4);
@@ -146603,11 +146603,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Query(zend_class_entry *cl
 	ZVAL_UNDEF(&_13$$9);
 	ZVAL_UNDEF(&_15$$10);
 	ZVAL_UNDEF(&_17$$11);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -147026,11 +147026,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Relation(zend_class_entry 
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -147905,11 +147905,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Resultset(zend_class_entry
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -148483,11 +148483,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Transaction(zend_class_ent
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -148606,11 +148606,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_ValidationFailed(zend_clas
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -149077,7 +149077,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Resultset_Complex, current)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_1), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&alias);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&alias, _5);
 			} else {
 				ZVAL_LONG(&alias, _4);
@@ -149836,7 +149836,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Resultset_Simple, toArray)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&record), _8$$8, _9$$8, _6$$8)
 						{
 							ZEPHIR_INIT_NVAR(&key);
-							if (_9$$8 != NULL) { 
+							if (_9$$8 != NULL) {
 								ZVAL_STR_COPY(&key, _9$$8);
 							} else {
 								ZVAL_LONG(&key, _8$$8);
@@ -149941,7 +149941,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Resultset_Simple, toArray)
 							ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&record), _21$$19, _22$$19, _19$$19)
 							{
 								ZEPHIR_INIT_NVAR(&key);
-								if (_22$$19 != NULL) { 
+								if (_22$$19 != NULL) {
 									ZVAL_STR_COPY(&key, _22$$19);
 								} else {
 									ZVAL_LONG(&key, _21$$19);
@@ -150973,11 +150973,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Transaction_Manager(zend_c
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -152002,7 +152002,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query_Builder, getPhql)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&columns), _11$$26, _12$$26, _9$$26)
 				{
 					ZEPHIR_INIT_NVAR(&columnAlias);
-					if (_12$$26 != NULL) { 
+					if (_12$$26 != NULL) {
 						ZVAL_STR_COPY(&columnAlias, _12$$26);
 					} else {
 						ZVAL_LONG(&columnAlias, _11$$26);
@@ -152062,7 +152062,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query_Builder, getPhql)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&models), _20$$35, _21$$35, _18$$35)
 				{
 					ZEPHIR_INIT_NVAR(&modelColumnAlias);
-					if (_21$$35 != NULL) { 
+					if (_21$$35 != NULL) {
 						ZVAL_STR_COPY(&modelColumnAlias, _21$$35);
 					} else {
 						ZVAL_LONG(&modelColumnAlias, _20$$35);
@@ -152130,7 +152130,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_Query_Builder, getPhql)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&models), _31$$43, _32$$43, _29$$43)
 			{
 				ZEPHIR_INIT_NVAR(&modelAlias);
-				if (_32$$43 != NULL) { 
+				if (_32$$43 != NULL) {
 					ZVAL_STR_COPY(&modelAlias, _32$$43);
 				} else {
 					ZVAL_LONG(&modelAlias, _31$$43);
@@ -154076,11 +154076,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Model_Query_Builder(zend_class_e
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -156791,7 +156791,6 @@ static int phql_internal_parse_phql(zval **result, char *phql, unsigned int phql
 		if (phalcon_globals_ptr->orm.parser_cache != NULL) {
 			if ((temp_ast = zend_hash_index_find(phalcon_globals_ptr->orm.parser_cache, phql_key)) != NULL) {
 				ZVAL_ZVAL(*result, temp_ast, 1, 0);
-				Z_TRY_ADDREF_P(*result);
 				return SUCCESS;
 			}
 		}
@@ -157224,10 +157223,10 @@ static int phql_get_token(phql_scanner_state *s, phql_scanner_token *token) {
 	char *q = PPCURSOR;
 	int status = PHQL_SCANNER_RETCODE_IMPOSSIBLE;
 
-	
+
 	while (PHQL_SCANNER_RETCODE_IMPOSSIBLE == status) {
 
-		
+
 		{
 			PPCTYPE ppch;
 			unsigned int ppaccept = 0;
@@ -164083,7 +164082,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_MetaData_Strategy_Annotations, getColumnMaps
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&propertiesAnnotations), _7, _8, _5)
 		{
 			ZEPHIR_INIT_NVAR(&property);
-			if (_8 != NULL) { 
+			if (_8 != NULL) {
 				ZVAL_STR_COPY(&property, _8);
 			} else {
 				ZVAL_LONG(&property, _7);
@@ -164414,7 +164413,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_MetaData_Strategy_Annotations, getMetaData)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&propertiesAnnotations), _7, _8, _5)
 		{
 			ZEPHIR_INIT_NVAR(&property);
-			if (_8 != NULL) { 
+			if (_8 != NULL) {
 				ZVAL_STR_COPY(&property, _8);
 			} else {
 				ZVAL_LONG(&property, _7);
@@ -165187,7 +165186,7 @@ static PHP_METHOD(Phalcon_Mvc_Model_MetaData_Strategy_Introspection, getColumnMa
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&userColumnMap), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&name);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&name, _3$$3);
 				} else {
 					ZVAL_LONG(&name, _2$$3);
@@ -166075,11 +166074,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Micro_Collection(zend_class_entr
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -166990,7 +166989,7 @@ static PHP_METHOD(Phalcon_Mvc_Router_Annotations, handle)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&methodAnnotations), _19$$18, _20$$18, _17$$18)
 					{
 						ZEPHIR_INIT_NVAR(&method);
-						if (_20$$18 != NULL) { 
+						if (_20$$18 != NULL) {
 							ZVAL_STR_COPY(&method, _20$$18);
 						} else {
 							ZVAL_LONG(&method, _19$$18);
@@ -167204,7 +167203,7 @@ static PHP_METHOD(Phalcon_Mvc_Router_Annotations, handle)
 						ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&methodAnnotations), _40$$41, _41$$41, _38$$41)
 						{
 							ZEPHIR_INIT_NVAR(&method);
-							if (_41$$41 != NULL) { 
+							if (_41$$41 != NULL) {
 								ZVAL_STR_COPY(&method, _41$$41);
 							} else {
 								ZVAL_LONG(&method, _40$$41);
@@ -167491,7 +167490,7 @@ static PHP_METHOD(Phalcon_Mvc_Router_Annotations, processActionAnnotation)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&converts), _11$$18, _12$$18, _9$$18)
 			{
 				ZEPHIR_INIT_NVAR(&param);
-				if (_12$$18 != NULL) { 
+				if (_12$$18 != NULL) {
 					ZVAL_STR_COPY(&param, _12$$18);
 				} else {
 					ZVAL_LONG(&param, _11$$18);
@@ -167533,7 +167532,7 @@ static PHP_METHOD(Phalcon_Mvc_Router_Annotations, processActionAnnotation)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&converts), _17$$21, _18$$21, _15$$21)
 			{
 				ZEPHIR_INIT_NVAR(&converterParam);
-				if (_18$$21 != NULL) { 
+				if (_18$$21 != NULL) {
 					ZVAL_STR_COPY(&converterParam, _18$$21);
 				} else {
 					ZVAL_LONG(&converterParam, _17$$21);
@@ -167741,11 +167740,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Router_Annotations(zend_class_en
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
 	ZVAL_UNDEF(&_13$$9);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -168522,11 +168521,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Router_Group(zend_class_entry *c
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -168870,7 +168869,7 @@ static PHP_METHOD(Phalcon_Mvc_Router_Route, extractNamedParams)
 	array_init(&matches);
 	ZEPHIR_INIT_VAR(&route);
 	for (_0 = 0; _0 < Z_STRLEN_P(&pattern); _0++) {
-		cursor = _0; 
+		cursor = _0;
 		ch = ZEPHIR_STRING_OFFSET(&pattern, _0);
 		if (parenthesesCount == 0) {
 			if (ch == '{') {
@@ -168894,7 +168893,7 @@ static PHP_METHOD(Phalcon_Mvc_Router_Route, extractNamedParams)
 						zephir_cast_to_string(&_4$$10, &_3$$10);
 						ZEPHIR_CPY_WRT(&item, &_4$$10);
 						for (_5$$10 = 0; _5$$10 < Z_STRLEN_P(&item); _5$$10++) {
-							cursorVar = _5$$10; 
+							cursorVar = _5$$10;
 							ch = ZEPHIR_STRING_OFFSET(&item, _5$$10);
 							if (ch == '\0') {
 								break;
@@ -169442,11 +169441,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_Router_Route(zend_class_entry *c
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -169755,7 +169754,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Simple, partial)
 		zephir_fast_array_merge(&mergedParams, &viewParams, params);
 		ZEPHIR_INIT_VAR(&_1$$3);
 		ZEPHIR_CREATE_SYMBOL_TABLE();
-		
+
 	} else {
 		ZEPHIR_CPY_WRT(&mergedParams, params);
 	}
@@ -169830,7 +169829,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Simple, render)
 	}
 	ZEPHIR_INIT_VAR(&_0);
 	ZEPHIR_CREATE_SYMBOL_TABLE();
-	
+
 	ZEPHIR_CALL_FUNCTION(NULL, "ob_start", NULL, 392);
 	zephir_check_call_status();
 	zephir_read_property(&_1, this_ptr, ZEND_STRL("viewParams"), PH_NOISY_CC | PH_READONLY);
@@ -170068,7 +170067,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Simple, loadTemplateEngines)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&registeredEngines), _5$$5, _6$$5, _3$$5)
 				{
 					ZEPHIR_INIT_NVAR(&extension);
-					if (_6$$5 != NULL) { 
+					if (_6$$5 != NULL) {
 						ZVAL_STR_COPY(&extension, _6$$5);
 					} else {
 						ZVAL_LONG(&extension, _5$$5);
@@ -170249,7 +170248,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Simple, internalRender)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&engines), _6, _7, _4)
 		{
 			ZEPHIR_INIT_NVAR(&extension);
-			if (_7 != NULL) { 
+			if (_7 != NULL) {
 				ZVAL_STR_COPY(&extension, _7);
 			} else {
 				ZVAL_LONG(&extension, _6);
@@ -170422,11 +170421,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_View_Simple(zend_class_entry *cl
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -170647,7 +170646,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Engine_Php, render)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(params), _2$$4, _3$$4, _0$$4)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$4 != NULL) { 
+				if (_3$$4 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$4);
 				} else {
 					ZVAL_LONG(&key, _2$$4);
@@ -171150,7 +171149,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Engine_Volt, render)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(params), _7$$8, _8$$8, _5$$8)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_8$$8 != NULL) { 
+				if (_8$$8 != NULL) {
 					ZVAL_STR_COPY(&key, _8$$8);
 				} else {
 					ZVAL_LONG(&key, _7$$8);
@@ -171367,11 +171366,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_View_Engine_Volt(zend_class_entr
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -172759,7 +172758,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Engine_Volt_Compiler, compileMacro)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&parameters), _8$$6, _9$$6, _6$$6)
 			{
 				ZEPHIR_INIT_NVAR(&position);
-				if (_9$$6 != NULL) { 
+				if (_9$$6 != NULL) {
 					ZVAL_STR_COPY(&position, _9$$6);
 				} else {
 					ZVAL_LONG(&position, _8$$6);
@@ -174550,7 +174549,7 @@ static PHP_METHOD(Phalcon_Mvc_View_Engine_Volt_Compiler, compileSource)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&extendedBlocks), _5$$7, _6$$7, _3$$7)
 			{
 				ZEPHIR_INIT_NVAR(&name);
-				if (_6$$7 != NULL) { 
+				if (_6$$7 != NULL) {
 					ZVAL_STR_COPY(&name, _6$$7);
 				} else {
 					ZVAL_LONG(&name, _5$$7);
@@ -175837,11 +175836,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_View_Engine_Volt_Compiler(zend_c
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
 	ZVAL_UNDEF(&_13$$9);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -175990,11 +175989,11 @@ zend_object *zephir_init_properties_Phalcon_Mvc_View_Engine_Volt_Exception(zend_
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -180022,7 +180021,7 @@ static int phvolt_get_token(phvolt_scanner_state *s, phvolt_scanner_token *token
 			}
 
 		} else {
-		
+
 		{
 			VVCTYPE vvch;
 			unsigned int vvaccept = 0;
@@ -185525,7 +185524,7 @@ static PHP_METHOD(Phalcon_Html_Attributes, renderAttributes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&results), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -185737,7 +185736,7 @@ static PHP_METHOD(Phalcon_Html_Breadcrumbs, render)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&elements), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&url);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&url, _4);
 			} else {
 				ZVAL_LONG(&url, _3);
@@ -185855,11 +185854,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Breadcrumbs(zend_class_entry *c
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -185945,7 +185944,7 @@ static PHP_METHOD(Phalcon_Html_Escaper, attributes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(input), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&key, _4);
 			} else {
 				ZVAL_LONG(&key, _3);
@@ -186834,11 +186833,11 @@ zend_object *zephir_init_properties_Phalcon_Html_TagFactory(zend_class_entry *cl
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -187434,11 +187433,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Link_AbstractLinkProvider(zend_
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -187943,7 +187942,7 @@ static PHP_METHOD(Phalcon_Html_Link_Serializer_Header, serialize)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&attributes), _7$$3, _8$$3, _5$$3)
 				{
 					ZEPHIR_INIT_NVAR(&key);
-					if (_8$$3 != NULL) { 
+					if (_8$$3 != NULL) {
 						ZVAL_STR_COPY(&key, _8$$3);
 					} else {
 						ZVAL_LONG(&key, _7$$3);
@@ -188098,7 +188097,7 @@ static PHP_METHOD(Phalcon_Html_Link_Serializer_Header, serialize)
 					ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&attributes), _27$$17, _28$$17, _25$$17)
 					{
 						ZEPHIR_INIT_NVAR(&key);
-						if (_28$$17 != NULL) { 
+						if (_28$$17 != NULL) {
 							ZVAL_STR_COPY(&key, _28$$17);
 						} else {
 							ZVAL_LONG(&key, _27$$17);
@@ -188608,7 +188607,7 @@ static PHP_METHOD(Phalcon_Html_Helper_AbstractHelper, renderAttributes)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&attributes), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -188989,11 +188988,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Helper_AbstractList(zend_class_
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -189124,11 +189123,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Helper_AbstractSeries(zend_clas
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -189884,11 +189883,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Helper_Breadcrumbs(zend_class_e
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -191384,11 +191383,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Helper_Title(zend_class_entry *
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -191593,11 +191592,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Helper_Input_AbstractInput(zend
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -191857,11 +191856,11 @@ zend_object *zephir_init_properties_Phalcon_Html_Helper_Input_Checkbox(zend_clas
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -193251,7 +193250,7 @@ static PHP_METHOD(Phalcon_Autoload_Loader, setClasses)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&classes), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&name, _4);
 			} else {
 				ZVAL_LONG(&name, _3);
@@ -193519,7 +193518,7 @@ static PHP_METHOD(Phalcon_Autoload_Loader, setNamespaces)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&namespaces), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&name, _4);
 			} else {
 				ZVAL_LONG(&name, _3);
@@ -194038,7 +194037,7 @@ static PHP_METHOD(Phalcon_Autoload_Loader, autoloadCheckNamespaces)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&namespaces), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&prefix);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&prefix, _4);
 			} else {
 				ZVAL_LONG(&prefix, _3);
@@ -194221,11 +194220,11 @@ zend_object *zephir_init_properties_Phalcon_Autoload_Loader(zend_class_entry *cl
 	ZVAL_UNDEF(&_7$$6);
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -194516,7 +194515,7 @@ static PHP_METHOD(Phalcon_Tag_Select, optionsFromArray)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&optionValue);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&optionValue, _3);
 			} else {
 				ZVAL_LONG(&optionValue, _2);
@@ -195145,7 +195144,7 @@ static PHP_METHOD(Phalcon_Support_Collection, init)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -195208,7 +195207,7 @@ static PHP_METHOD(Phalcon_Support_Collection, jsonSerialize)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_0), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&key, _4);
 			} else {
 				ZVAL_LONG(&key, _3);
@@ -195628,11 +195627,11 @@ zend_object *zephir_init_properties_Phalcon_Support_Collection(zend_class_entry 
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -196125,7 +196124,7 @@ static PHP_METHOD(Phalcon_Support_Debug, renderHtml)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_8$$3), _11$$3, _12$$3, _9$$3)
 			{
 				ZEPHIR_INIT_NVAR(&n);
-				if (_12$$3 != NULL) { 
+				if (_12$$3 != NULL) {
 					ZVAL_STR_COPY(&n, _12$$3);
 				} else {
 					ZVAL_LONG(&n, _11$$3);
@@ -196174,7 +196173,7 @@ static PHP_METHOD(Phalcon_Support_Debug, renderHtml)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_REQUEST), _22$$3, _23$$3, _20$$3)
 			{
 				ZEPHIR_INIT_NVAR(&keyRequest);
-				if (_23$$3 != NULL) { 
+				if (_23$$3 != NULL) {
 					ZVAL_STR_COPY(&keyRequest, _23$$3);
 				} else {
 					ZVAL_LONG(&keyRequest, _22$$3);
@@ -196247,7 +196246,7 @@ static PHP_METHOD(Phalcon_Support_Debug, renderHtml)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_SERVER), _38$$3, _39$$3, _36$$3)
 			{
 				ZEPHIR_INIT_NVAR(&keyServer);
-				if (_39$$3 != NULL) { 
+				if (_39$$3 != NULL) {
 					ZVAL_STR_COPY(&keyServer, _39$$3);
 				} else {
 					ZVAL_LONG(&keyServer, _38$$3);
@@ -196303,7 +196302,7 @@ static PHP_METHOD(Phalcon_Support_Debug, renderHtml)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_48$$3), _51$$3, _52$$3, _49$$3)
 			{
 				ZEPHIR_INIT_NVAR(&keyFile);
-				if (_52$$3 != NULL) { 
+				if (_52$$3 != NULL) {
 					ZVAL_STR_COPY(&keyFile, _52$$3);
 				} else {
 					ZVAL_LONG(&keyFile, _51$$3);
@@ -196351,7 +196350,7 @@ static PHP_METHOD(Phalcon_Support_Debug, renderHtml)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&dataVars), _60$$21, _61$$21, _58$$21)
 				{
 					ZEPHIR_INIT_NVAR(&keyVar);
-					if (_61$$21 != NULL) { 
+					if (_61$$21 != NULL) {
 						ZVAL_STR_COPY(&keyVar, _61$$21);
 					} else {
 						ZVAL_LONG(&keyVar, _60$$21);
@@ -196707,7 +196706,7 @@ static PHP_METHOD(Phalcon_Support_Debug, getArrayDump)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&argument), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&k);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&k, _4);
 			} else {
 				ZVAL_LONG(&k, _3);
@@ -197222,11 +197221,11 @@ zend_object *zephir_init_properties_Phalcon_Support_Debug(zend_class_entry *clas
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_4$$4);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -198483,7 +198482,7 @@ static PHP_METHOD(Phalcon_Support_Debug_Dump, variables)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_0), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&key, _4);
 			} else {
 				ZVAL_LONG(&key, _3);
@@ -198769,7 +198768,7 @@ static PHP_METHOD(Phalcon_Support_Debug_Dump, output)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(variable), _6$$4, _7$$4, _4$$4)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_7$$4 != NULL) { 
+				if (_7$$4 != NULL) {
 					ZVAL_STR_COPY(&key, _7$$4);
 				} else {
 					ZVAL_LONG(&key, _6$$4);
@@ -198940,7 +198939,7 @@ static PHP_METHOD(Phalcon_Support_Debug_Dump, output)
 				ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_46$$12), _49$$12, _50$$12, _47$$12)
 				{
 					ZEPHIR_INIT_NVAR(&key);
-					if (_50$$12 != NULL) { 
+					if (_50$$12 != NULL) {
 						ZVAL_STR_COPY(&key, _50$$12);
 					} else {
 						ZVAL_LONG(&key, _49$$12);
@@ -199427,11 +199426,11 @@ zend_object *zephir_init_properties_Phalcon_Support_Debug_Dump(zend_class_entry 
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -201365,7 +201364,7 @@ static PHP_METHOD(Phalcon_Support_Helper_Str_AbstractStr, toInterpolate)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&context), _2, _3, _0)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_3 != NULL) { 
+			if (_3 != NULL) {
 				ZVAL_STR_COPY(&key, _3);
 			} else {
 				ZVAL_LONG(&key, _2);
@@ -202803,7 +202802,7 @@ static PHP_METHOD(Phalcon_Support_Helper_Str_Interpolate, __invoke)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&context), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$3);
 				} else {
 					ZVAL_LONG(&key, _2$$3);
@@ -204495,7 +204494,7 @@ static PHP_METHOD(Phalcon_Factory_AbstractFactory, init)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&adapters), _3, _4, _1)
 		{
 			ZEPHIR_INIT_NVAR(&name);
-			if (_4 != NULL) { 
+			if (_4 != NULL) {
 				ZVAL_STR_COPY(&name, _4);
 			} else {
 				ZVAL_LONG(&name, _3);
@@ -204541,11 +204540,11 @@ zend_object *zephir_init_properties_Phalcon_Factory_AbstractFactory(zend_class_e
 	ZVAL_UNDEF(&_2);
 	ZVAL_UNDEF(&_1$$3);
 	ZVAL_UNDEF(&_3$$4);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -204760,7 +204759,7 @@ static PHP_METHOD(Phalcon_Forms_Form, add)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&_5$$5), _8$$5, _9$$5, _6$$5)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_9$$5 != NULL) { 
+				if (_9$$5 != NULL) {
 					ZVAL_STR_COPY(&key, _9$$5);
 				} else {
 					ZVAL_LONG(&key, _8$$5);
@@ -204899,7 +204898,7 @@ static PHP_METHOD(Phalcon_Forms_Form, bind)
 		ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(&data), _4, _5, _2)
 		{
 			ZEPHIR_INIT_NVAR(&key);
-			if (_5 != NULL) { 
+			if (_5 != NULL) {
 				ZVAL_STR_COPY(&key, _5);
 			} else {
 				ZVAL_LONG(&key, _4);
@@ -206303,11 +206302,11 @@ zend_object *zephir_init_properties_Phalcon_Forms_Form(zend_class_entry *class_t
 	ZVAL_UNDEF(&_7$$6);
 	ZVAL_UNDEF(&_9$$7);
 	ZVAL_UNDEF(&_11$$8);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -206489,11 +206488,11 @@ zend_object *zephir_init_properties_Phalcon_Forms_Manager(zend_class_entry *clas
 	zephir_method_globals *ZEPHIR_METHOD_GLOBALS_PTR = NULL;
 		ZVAL_UNDEF(&_0);
 	ZVAL_UNDEF(&_1$$3);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -207349,11 +207348,11 @@ zend_object *zephir_init_properties_Phalcon_Forms_Element_AbstractElement(zend_c
 	ZVAL_UNDEF(&_3$$4);
 	ZVAL_UNDEF(&_5$$5);
 	ZVAL_UNDEF(&_7$$6);
-	
+
 
 		ZEPHIR_METHOD_GLOBALS_PTR = pecalloc(1, sizeof(zephir_method_globals), 0);
 		zephir_memory_grow_stack(ZEPHIR_METHOD_GLOBALS_PTR, __func__);
-	
+
 	{
 		zval local_this_ptr, *this_ptr = &local_this_ptr;
 		ZEPHIR_CREATE_OBJECT(this_ptr, class_type);
@@ -207660,7 +207659,7 @@ static PHP_METHOD(Phalcon_Forms_Element_Select, addOption)
 			ZEND_HASH_FOREACH_KEY_VAL(Z_ARRVAL_P(option), _2$$3, _3$$3, _0$$3)
 			{
 				ZEPHIR_INIT_NVAR(&key);
-				if (_3$$3 != NULL) { 
+				if (_3$$3 != NULL) {
 					ZVAL_STR_COPY(&key, _3$$3);
 				} else {
 					ZVAL_LONG(&key, _2$$3);
@@ -208483,8 +208482,8 @@ PHP_INI_BEGIN()
 	STD_PHP_INI_BOOLEAN("phalcon.db.escape_identifiers", "1", PHP_INI_ALL, OnUpdateBool, db.escape_identifiers, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.db.force_casting", "0", PHP_INI_ALL, OnUpdateBool, db.force_casting, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.form.strict_entity_property_check", "0", PHP_INI_ALL, OnUpdateBool, form.strict_entity_property_check, zend_phalcon_globals, phalcon_globals)
-	
-	
+
+
 	STD_PHP_INI_BOOLEAN("phalcon.orm.case_insensitive_column_map", "0", PHP_INI_ALL, OnUpdateBool, orm.case_insensitive_column_map, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.orm.cast_last_insert_id_to_int", "0", PHP_INI_ALL, OnUpdateBool, orm.cast_last_insert_id_to_int, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.orm.cast_on_hydrate", "0", PHP_INI_ALL, OnUpdateBool, orm.cast_on_hydrate, zend_phalcon_globals, phalcon_globals)
@@ -208498,9 +208497,9 @@ PHP_INI_BEGIN()
 	STD_PHP_INI_BOOLEAN("phalcon.orm.ignore_unknown_columns", "0", PHP_INI_ALL, OnUpdateBool, orm.ignore_unknown_columns, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.orm.late_state_binding", "0", PHP_INI_ALL, OnUpdateBool, orm.late_state_binding, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.orm.not_null_validations", "1", PHP_INI_ALL, OnUpdateBool, orm.not_null_validations, zend_phalcon_globals, phalcon_globals)
-	
+
 	STD_PHP_INI_ENTRY("phalcon.orm.resultset_prefetch_records", "0", PHP_INI_ALL, NULL, orm.resultset_prefetch_records, zend_phalcon_globals, phalcon_globals)
-	
+
 	STD_PHP_INI_BOOLEAN("phalcon.orm.update_snapshot_on_save", "1", PHP_INI_ALL, OnUpdateBool, orm.update_snapshot_on_save, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.orm.virtual_foreign_keys", "1", PHP_INI_ALL, OnUpdateBool, orm.virtual_foreign_keys, zend_phalcon_globals, phalcon_globals)
 	STD_PHP_INI_BOOLEAN("phalcon.orm.dynamic_update", "1", PHP_INI_ALL, OnUpdateBool, orm.dynamic_update, zend_phalcon_globals, phalcon_globals)
@@ -209130,14 +209129,14 @@ static PHP_MINIT_FUNCTION(phalcon)
 	ZEPHIR_INIT(phalcon_7__closure);
 	ZEPHIR_INIT(phalcon_8__closure);
 	ZEPHIR_INIT(phalcon_9__closure);
-	
+
 	return SUCCESS;
 }
 
 #ifndef ZEPHIR_RELEASE
 static PHP_MSHUTDOWN_FUNCTION(phalcon)
 {
-	
+
 	zephir_deinitialize_memory();
 	UNREGISTER_INI_ENTRIES();
 	return SUCCESS;
@@ -209157,7 +209156,7 @@ static void php_zephir_init_globals(zend_phalcon_globals *phalcon_globals)
 	/* Static cache */
 	memset(phalcon_globals->scache, '\0', sizeof(zephir_fcall_cache_entry*) * ZEPHIR_MAX_CACHE_SLOTS);
 
-	
+
 
 
 	phalcon_globals->orm.ast_cache = NULL;
@@ -209182,12 +209181,12 @@ static void php_zephir_init_globals(zend_phalcon_globals *phalcon_globals)
 
 
 
-	
+
 }
 
 static void php_zephir_init_module_globals(zend_phalcon_globals *phalcon_globals)
 {
-	
+
 }
 
 static PHP_RINIT_FUNCTION(phalcon)
@@ -209198,7 +209197,7 @@ static PHP_RINIT_FUNCTION(phalcon)
 	php_zephir_init_globals(phalcon_globals_ptr);
 	zephir_initialize_memory(phalcon_globals_ptr);
 
-	
+
 	return SUCCESS;
 }
 
@@ -209224,7 +209223,7 @@ static PHP_MINFO_FUNCTION(phalcon)
 	php_info_print_table_row(2, "Build Date", __DATE__ " " __TIME__ );
 	php_info_print_table_row(2, "Powered by Zephir", "Version " PHP_PHALCON_ZEPVERSION);
 	php_info_print_table_end();
-	
+
 	DISPLAY_INI_ENTRIES();
 }
 
@@ -209240,7 +209239,7 @@ static PHP_GINIT_FUNCTION(phalcon)
 
 static PHP_GSHUTDOWN_FUNCTION(phalcon)
 {
-	
+
 }
 
 
